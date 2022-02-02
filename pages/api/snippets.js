@@ -11,6 +11,6 @@ export default async function handler(req, res) {
 
     } catch (err) {
         console.error(err);
-        res.status(500).json({ msg: 'Something went wrong in  /api/snippets' });
+        res.status(500).json({ msg: 'Something went wrong in  /api/snippets' }) ;
     }
 }
